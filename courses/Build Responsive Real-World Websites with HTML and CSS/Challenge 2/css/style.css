@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  border: 5px solid black;
+}
+
+.allcaps {
+  text-transform: uppercase;
+}
+
+.big-text {
+  font-size: 22px;
+}
+
+.bigger-text {
+    font-size: 26px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.mid-text {
+    font-size: 16px;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+h2 {
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.grey-letter {
+  color: grey;
+}
