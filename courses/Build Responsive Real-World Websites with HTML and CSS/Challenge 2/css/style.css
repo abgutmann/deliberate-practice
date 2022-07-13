@@ -54,3 +54,7 @@ button:hover {
 .grey-letter {
   color: grey;
 }
+
+ul {
+  list-style-type: square;
+}
