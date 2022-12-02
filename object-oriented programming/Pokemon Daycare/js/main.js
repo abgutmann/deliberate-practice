@@ -45,9 +45,19 @@ class Pokemon {
 // Pokemon
 let pikachu = new Pokemon("Pikachu", "Pika", "Ash Ketchum", "male", ["field", "fairy"], 14)
 let vulpix = new Pokemon("Vulpix", "Vulpix", "Amanda", "female", ["field"], 12)
+let poliwag = new Pokemon("Poliwag", "Waggy", "Gary Oak", "male", ["water1"], 20)
+
+
+// Pokemon Daycare should take two Objects made from a Pokemon class, see their Egg Groups, check the compatibility between them, and determine if there is a chance of them conceiving a Pokemon Egg.
 
 let pokemonDaycare = {
     // Properties
     // Methods
-    
+    compatibility(firstPokemon, secondPokemon) {
+        let eggGroupOne = firstPokemon.eggGroup
+        let eggGroupTwo = secondPokemon.eggGroup
+
+        console.log(eggGroupOne)
+        console.log(eggGroupTwo)
+    }
 }
